@@ -5,6 +5,9 @@ var vulcanize = require('broccoli-vulcanize');
 
 var app = new EmberApp();
 
+//app.import('bower_components/materialize/bin/materialize.js');
+//app.import('bower_components/materialize/bin/materialize.css');
+
 var polymerVulcanize = vulcanize('app', {
   input: 'elements.html',
   output: 'assets/vulcanized.html',

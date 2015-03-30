@@ -1,9 +1,9 @@
 core-toolbar{
-  background-color: #98fe78;
+  background-color: #42a5f5;
   color: black;
 }
 .dark-theme{
-  background-color: #247813;
+  background-color: #0d47a1;
   color: white;
 }
 #hero1 {
@@ -40,4 +40,19 @@ core-toolbar{
 }
 .example-toolbar{
   margin-top: 10px;
+}
+
+core-animated-pages {
+  position: absolute;
+  top: 250px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 72px;
+  overflow: hidden;
+}
+
+section > div {
+  height: 100%;
+  color: white;
 }

@@ -7,6 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('toolbar');
+  this.route('transitions');
 });
 
 export default Router;

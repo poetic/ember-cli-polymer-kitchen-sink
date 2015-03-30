@@ -1,0 +1,32 @@
+<select {{action 'changeAnimation' on='change'}}>
+  <option value="slide-from-right selected">slide-from-right</option>
+  <option value="cross-fade-all">cross-fade-all</option>
+</select>
+
+<core-animated-pages {{action 'switchPanes'}} transitions="slide-from-right">
+  <section>
+    <div layout vertical center center-justified style="background:red;">
+      <div>1</div>
+    </div>
+  </section>
+  <section>
+    <div layout vertical center center-justified style="background:blue;">
+      <div>2</div>
+    </div>
+  </section>
+  <section>
+    <div layout vertical center center-justified style="background:purple;">
+      <div>3</div>
+    </div>
+  </section>
+  <section>
+    <div layout vertical center center-justified style="background:orange;">
+      <div>4</div>
+    </div>
+  </section>
+  <section>
+    <div layout vertical center center-justified style="background:green;">
+      <div>5</div>
+    </div>
+  </section>
+</core-animated-pages>
