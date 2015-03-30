@@ -1,7 +1,9 @@
-# Ember-cli-polymer
+# Ember-cli-polymer-kitchen-sink
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The basic goal of this project is to get all the core elements of google polymer playing nice with ember-cli. A full list of core elements can be found at https://www.polymer-project.org/0.5/docs/elements/
+
+Also you can see what elements are installed into the project by viewing the elements.html file in the app directory.
+
 
 ## Prerequisites
 
