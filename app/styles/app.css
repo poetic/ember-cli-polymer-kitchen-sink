@@ -1,0 +1,43 @@
+core-toolbar{
+  background-color: #98fe78;
+  color: black;
+}
+.dark-theme{
+  background-color: #247813;
+  color: white;
+}
+#hero1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+#hero2 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+#bottom1, #bottom2 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  height: 50px;
+}
+#bottom1 {
+  background-color: blue;
+}
+#bottom2 {
+  background-color: green;
+}
+.title{
+  text-align: center;
+}
+.example-toolbar{
+  margin-top: 10px;
+}
