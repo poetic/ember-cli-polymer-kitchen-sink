@@ -3,7 +3,7 @@
 The basic goal of this project is to get all the core elements of google polymer playing nice with ember-cli. A full list of core elements can be found at https://www.polymer-project.org/0.5/docs/elements/
 
 Also you can see what elements are installed into the project by viewing the elements.html file in the app directory.
-
+https://github.com/poetic/ember-cli-polymer-kitchen-sink/blob/master/app/elements.html
 
 ## Prerequisites
 
