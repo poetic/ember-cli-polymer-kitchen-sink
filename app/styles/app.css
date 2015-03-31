@@ -51,7 +51,13 @@ core-animated-pages {
   font-size: 72px;
   overflow: hidden;
 }
-
+.select-wrapper{
+  margin-top: 1px;
+}
+.select-wrapper input{
+  height: 60px !important;
+  margin-left: 100px;
+}
 section > div {
   height: 100%;
   color: white;

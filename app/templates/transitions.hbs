@@ -1,32 +1,32 @@
-<select {{action 'changeAnimation' on='change'}}>
+{{#mat-select changeAnimation='changeAnimation'}}
   <option value="slide-from-right selected">slide-from-right</option>
   <option value="cross-fade-all">cross-fade-all</option>
-</select>
+{{/mat-select}}
 
 <core-animated-pages {{action 'switchPanes'}} transitions="slide-from-right">
   <section>
-    <div layout vertical center center-justified style="background:red;">
-      <div>1</div>
+    <div layout vertical center center-justified class="orange lighten-2">
+      <div>orange lighten-2</div>
     </div>
   </section>
   <section>
-    <div layout vertical center center-justified style="background:blue;">
-      <div>2</div>
+    <div layout vertical center center-justified class="orange lighten-1">
+      <div>orange lighten-1</div>
     </div>
   </section>
   <section>
-    <div layout vertical center center-justified style="background:purple;">
-      <div>3</div>
+    <div layout vertical center center-justified class="orange">
+      <div>orange</div>
     </div>
   </section>
   <section>
-    <div layout vertical center center-justified style="background:orange;">
-      <div>4</div>
+    <div layout vertical center center-justified class="orange darken-1">
+      <div>orange darken-1</div>
     </div>
   </section>
   <section>
-    <div layout vertical center center-justified style="background:green;">
-      <div>5</div>
+    <div layout vertical center center-justified class="orange darken-2">
+      <div>orange darken-2</div>
     </div>
   </section>
 </core-animated-pages>
