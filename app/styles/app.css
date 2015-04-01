@@ -62,3 +62,11 @@ section > div {
   height: 100%;
   color: white;
 }
+
+#animate-me {
+  background-color: lime;
+  position: fixed;
+  top: 300px;
+  width: 100%;
+  height: 100%;
+}
